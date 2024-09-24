@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Salário </h1>
+<script>
+
+    var salarioreceber = 0;
+    var grat = 0;
+    var imp = 0;
+
+    var nomeFuncionario = prompt("Informe o nome do Funcionário.");
+    var sal = parseFloat(prompt("Informe o salário."))
+    imp = sal * 10/100;
+    salarioreceber = sal + 50 - imp
+    document.write("Funcionário:" + nomeFuncionario + "<br>");
+    document.write("Novo salário:" + salarioreceber)
+
+</script>
+   
+</body>
+</html>
